@@ -2,6 +2,7 @@ baseURL = 'http://amirrezaask.github.io/'
 languageCode = 'en-us'
 title = 'Amirreza Askarpour Blog'
 theme = 'hello-friend'
+publishDir = "docs"
 
 paginate = 5
 
