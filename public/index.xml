@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amirreza Askarpour Blog</title>
+    
+    
+    
+    <link>http://amirrezaask.github.io/</link>
+    <description>Recent content on Amirreza Askarpour Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Aug 2022 21:56:47 +0430</lastBuildDate>
+    
+	<atom:link href="http://amirrezaask.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://amirrezaask.github.io/posts/hello-world/</link>
+      <pubDate>Fri, 05 Aug 2022 21:56:47 +0430</pubDate>
+      
+      <guid>http://amirrezaask.github.io/posts/hello-world/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          Hello World.
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

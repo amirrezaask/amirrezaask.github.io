@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://amirrezaask.github.io/</loc>
+    <lastmod>2022-08-05T21:56:47+04:30</lastmod>
+  </url><url>
+    <loc>http://amirrezaask.github.io/posts/hello-world/</loc>
+    <lastmod>2022-08-05T21:56:47+04:30</lastmod>
+  </url><url>
+    <loc>http://amirrezaask.github.io/posts/</loc>
+    <lastmod>2022-08-05T21:56:47+04:30</lastmod>
+  </url><url>
+    <loc>http://amirrezaask.github.io/tags/</loc>
+    <lastmod>2022-08-05T21:56:47+04:30</lastmod>
+  </url><url>
+    <loc>http://amirrezaask.github.io/tags/untagged/</loc>
+    <lastmod>2022-08-05T21:56:47+04:30</lastmod>
+  </url><url>
+    <loc>http://amirrezaask.github.io/categories/</loc>
+  </url>
+</urlset>
