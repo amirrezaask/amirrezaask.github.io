@@ -36,12 +36,14 @@ You can see a compiler as a set of pure functions that get some input and produc
 1. Frontend
    1. Lexer ( tokenizer ): This step gets your source code and generates stream of tokens.
    2. Parser: this step gets the stream of tokens you produced and will generate an AST out of that.
-   3. Type Checker/Type Inference: Every static type language does a type checking phase where it will look at AST to see if everything in terms of types make sense, we elaborate on this later. also modern compilers will do type inference where they can guess type of things in your AST and modify the AST and add necessary type information to that.
-   4. Semantic Analyzer: this step checks your AST for correct usage of stuff, forexample checks that if you have a `continue` stmt, it should be inside a `for` or `while` otherwise it's an error, this step really depends on your language and syntax.
+2. Analyzers
+   1. Type Checker/Type Inference: Every static type language does a type checking phase where it will look at AST to see if everything in terms of types make sense, we elaborate on this later. also modern compilers will do type inference where they can guess type of things in your AST and modify the AST and add necessary type information to that.
+   2. Semantic Analyzer: this step checks your AST for correct usage of stuff, forexample checks that if you have a `continue` stmt, it should be inside a `for` or `while` otherwise it's an error, this step really depends on your language and syntax.
 
-   5. Optimizer (optional): you can skip this step if you want to go with approach 1 or 2 because most of the times the target platform will do this for you but if you want this there are various optimizations that we will talk on later.
+3. Optimizer (optional): you can skip this step if you want to go with approach 1 or 2 because most of the times the target platform will do this for you but if you want this there are various optimizations that we will talk on later.
    
-   6. Target Code Gen: This is the final step that will get the modified AST/IR and generate output code from it.
+   
+4. Target Code Gen: This is the final step that will get the modified AST/IR and generate output code from it.
 
 
 I hope you liked this so far, stay tuned for next chapters that we elaborate on each phase.
